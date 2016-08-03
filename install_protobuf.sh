@@ -18,5 +18,5 @@ pushd $protobuf3_dir
 ./autogen.sh
 ./configure --prefix=/usr
 make
-make install
+sudo make install
 popd
