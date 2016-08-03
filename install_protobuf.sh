@@ -5,7 +5,7 @@ set -euo pipefail
 protobuf_url='https://github.com/google/protobuf/archive/v3.0.0.tar.gz'
 protobuf3_dir=~/protobuf3
 
-apt-get install -y --no-install-recommends \
+sudo apt-get install -y --no-install-recommends \
         curl \
         dh-autoreconf \
         unzip
