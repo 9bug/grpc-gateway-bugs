@@ -4,6 +4,7 @@ set -euo pipefail
 
 protobuf_url='https://github.com/google/protobuf/archive/v3.0.0.tar.gz'
 protobuf3_dir=~/protobuf3
+mkdir -p "$protobuf3_dir"
 
 sudo apt-get install -y --no-install-recommends \
         curl \
