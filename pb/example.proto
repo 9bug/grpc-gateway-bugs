@@ -3,7 +3,7 @@ package example;
 
 import "google/api/annotations.proto";
 
-option go_package = "github.com/9bug/grpc-gateway-bugs;pb";
+option go_package = "github.com/9bug/bug;pb";
 
 message StringMessage {
   string value = 1;
